@@ -25,3 +25,11 @@
 		- >> git remote remove origin
 		- >> git remote add origin https://github.com/chlwltn0219/MosaicWeb.git
 		- >> git push -u origin master
+	- 개발자 2가 Clone 수행
+		- >> git clone https://github.com/chlwltn0219/MosaicWeb.git
+		- >> git clone https://github.com/chlwltn0219/MosaicWeb.git MoasicWebDev
+		- Eclipse Gradle Import
+		
+		
+		
+		
