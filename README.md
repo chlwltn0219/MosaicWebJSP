@@ -36,6 +36,7 @@
 	- >> mkdir src/main/webapp 폴더 생성
 	- >> notepad src/main/Hello.html
 	- >> gradle bootrun
-	- Firefox ==> http://localhost:8080/Hello.html		
+	- Firefox ==> http://localhost:8080/Hello.html	
+		
 		
 		
