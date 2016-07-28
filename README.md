@@ -53,7 +53,7 @@
 
 5. Servlet 설정
 
-	- Project Facets 추가
+	- * Eclipse Project Facets 추가
 		- Dynamic Web Module 3.1
 		- Java 1.8
 		- JavaScript 1.0
@@ -70,6 +70,10 @@
 	- build.gradle에 설정(두 곳)
 		- classpath("org.springframework:springloaded:1.2.6.RELEASE")
 		- compile group: 'org.springframework', name: 'springloaded', version: '1.2.6.RELEASE'
-	- Eclipse Output Directory 변경
-		- bin ==> build/class/main
+	- * Eclipse Output Directory 변경
+		- bin ==> build/classes/main
+	
+	
+	
+	
 	
