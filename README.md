@@ -18,7 +18,7 @@
 		- >> git log
 		- >> dir /A .gitignore
 		- >> notepad .gitignore
-		- > git init
+		- >> git init
 		- >> git add *
 		- >> git commit -m "first commit"
 		
@@ -72,6 +72,29 @@
 		- compile group: 'org.springframework', name: 'springloaded', version: '1.2.6.RELEASE'
 	- * Eclipse Output Directory 변경
 		- bin ==> build/classes/main
+	
+	
+	
+7. Mybatis 설정
+
+	- mvnrepository.com >> search : mybatis spring boot starter
+	- src/main/webapp/WEB-INF/lib/ojdbc7.jar
+	- build.gradle에 Dependency 설정
+		compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '1.1.1'
+		compile files('src/main/webapp/WEB-INF/lib/ojdbc7.jar')
+	- application.properties
+		- spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+		- spring.datasource.url=jdbc:oracle:thin:@52.78.85.96:1521:orcl
+		- spring.datasource.username=scott
+		- spring.datasource.password=tiger
+	- Eclipse Gradle Refresh 수행
+	- gradle bootRun
+	
+	- notepad src/main/java/com/hybrid/mapper/DeptMapper.java (Interface)
+	- notepad src/main/java/com/hybrid/domain/Dept.jsva	
+	- notepad src/test/java/com/hybrid/mapper/DeptMapperTest.java
+	- notepad src/main/webapp/dept.jsp
+	
 	
 	
 	
